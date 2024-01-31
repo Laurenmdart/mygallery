@@ -27,6 +27,7 @@
 }
 
 -------
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
 
@@ -41,6 +42,12 @@
     src: url("../media/fonts/Gluten-VariableFont_slnt\,wght.ttf")
     font-family: gluten;
 }
+
+@font-face{
+    src: url("../media/fonts/fonts/PressStart2P-Regular.ttf")
+    font-family: press2start;
+}
+
 
 .banner{
     width: 1000px;
@@ -70,7 +77,7 @@ h2{
 }
 
 h3{
-    color: maroon;
+    color: rgb(15, 27, 68);;
 }
 
 text{
