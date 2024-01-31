@@ -31,6 +31,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Mono&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Press+Start+2P&family=Roboto+Mono&display=swap');
 
 @font-face{
     src: url("../media/fonts/fonts/PressStart2P-Regular.ttf")
@@ -42,6 +43,10 @@
     font-family: roboto;
 }
 
+@font-face{
+    src: url("../media/fonts/fonts/media/fonts/DMSerifDisplay-Regular.ttf")
+    font-family: dmserif;
+}
 
 .banner{
     width: 1000px;
@@ -59,7 +64,7 @@ title{
 }
 
 h1{
-    font-family: 'press2start', system-ui;
+    font-family: 'dmserif', system-ui;
     color: rgb(15, 27, 68);
     font-size: 75px;
 }
