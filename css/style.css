@@ -29,23 +29,17 @@
 -------
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Mono&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Gluten:slnt@-13&display=swap');
-
-@font-face{
-    src: url("../media/fonts/RubikBubbles-Regular.ttf")
-    font-family: rubik bubbles;
-}
-
-@font-face{
-    src: url("../media/fonts/Gluten-VariableFont_slnt\,wght.ttf")
-    font-family: gluten;
-}
 
 @font-face{
     src: url("../media/fonts/fonts/PressStart2P-Regular.ttf")
     font-family: press2start;
+}
+
+@font-face{
+    src: url("../media/fonts/media/fonts/RobotoMono-VariableFont_wght.ttf")
+    font-family: roboto;
 }
 
 
@@ -65,22 +59,24 @@ title{
 }
 
 h1{
-    font-family: 'gluten', system-ui;
+    font-family: 'press2start', system-ui;
     color: rgb(15, 27, 68);
     font-size: 75px;
 }
 
 h2{
-    font-family: 'rubik bubbles', system-ui;
+    font-family: 'press2start', system-ui;
     color: rgb(15, 27, 68);
     font-size: 100px;
 }
 
 h3{
+    font-family: 'press2start', system-ui;
     color: rgb(15, 27, 68);;
 }
 
 text{
+    font-family: 'roboto', system-ui;
     color: rgb(15, 27, 68);
 }
 
@@ -96,6 +92,7 @@ img{
   }
 
   p{
+    font-family: 'roboto', system-ui;
     color: rgb(24, 7, 121);
 }
 
