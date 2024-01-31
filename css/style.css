@@ -34,18 +34,18 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Press+Start+2P&family=Roboto+Mono&display=swap');
 
 @font-face{
-    src: url("../media/fonts/fonts/PressStart2P-Regular.ttf")
+    src: url("../media/fonts/PressStart2P-Regular.ttf")
     font-family: press2start;
 }
 
 @font-face{
-    src: url("../media/fonts/media/fonts/RobotoMono-VariableFont_wght.ttf")
+    src: url("../media/fonts/RobotoMono-VariableFont_wght.ttf")
     font-family: roboto;
 }
 
 @font-face{
-    src: url("../media/fonts/fonts/media/fonts/DMSerifDisplay-Regular.ttf")
-    font-family: dmserif;
+    src: url("../media/fonts/DMSerifDisplay-Regular.ttf")
+    font-family: DMSerifDisplay;
 }
 
 .banner{
