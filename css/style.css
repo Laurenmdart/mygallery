@@ -1,48 +1,49 @@
-
-.menu{
-    margin: 50px;
-    padding: 50px;
+*{
+    margin: 0;
+    padding: 0;
 }
 
 .menu ul{
     list-style-type: none;
-    background-color: rgb(234, 234, 234);
+    background-color: rgb(29, 84, 70);
     overflow: hidden;
+}
+
+.menu li{
+    float: left;
+    font-size: 20px;
+    color: white;
 }
 
 .menu li a{
     display: block;
-    color: rgb(3, 1, 82);
-    padding-right: 14 px;
-    padding-left: 16 px;
-    padding-bottom: 16 px;
+    color: rgb(255, 255, 255);
+    padding: 20px 100px;
     text-decoration: none;
-    text-align: center;
-}
 
+}
 .menu li a:hover{
-    background-color: gray;
+    background-color: rgb(138, 182, 152);
 }
 
--------
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Mono&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Press+Start+2P&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 
 @font-face{
-    src: url("../media/fonts/PressStart2P-Regular.ttf")
+    src: url("media/fonts/PressStart2P-Regular.ttf")
     font-family: press2start;
 }
 
 @font-face{
-    src: url("../media/fonts/RobotoMono-VariableFont_wght.ttf")
+    src: url("media/fonts/RobotoMono-VariableFont_wght.ttf")
     font-family: roboto;
 }
 
 @font-face{
-    src: url("../media/fonts/DMSerifDisplay-Regular.ttf")
+    src: url("media/fonts/DMSerifDisplay-Regular.ttf")
     font-family: DMSerifDisplay;
 }
 
@@ -54,49 +55,177 @@
 }
 
 body{
-    background-color: rgb(170, 165, 208);
+    background-color: rgb(154, 203, 185);
 }
 
 title{
-    color: rgb(15, 27, 68);
+    color: rgb(27, 87, 65);
 }
 
 h1{
-    font-family: 'dmserif', system-ui;
-    color: rgb(15, 27, 68);
+    color: rgb(13, 68, 40);
     font-size: 75px;
+    font-family: 'dmserif', system-ui;
 }
 
 h2{
     font-family: 'dmserift', system-ui;
-    color: rgb(15, 27, 68);
-    font-size: 100px;
+    color: rgb(17, 85, 36);
+    font-size: 30px;
 }
 
 h3{
     font-family: 'press2start', system-ui;
-    color: rgb(15, 27, 68);;
+    color: rgb(193, 228, 207);;
 }
 
-text{
-    font-family: 'roboto', system-ui;
-    color: rgb(15, 27, 68);
+.couple{
+    border: 5px solid #f3fff4;
+    position: absolute;
+    top: 540px;
+    left: 20px;
+    width: auto;
 }
 
-img{
-    border: 5px solid #0c9119;
-  }
+.sun{
+    position: absolute;
+    top: 540px;
+    left: 520px;
+    width: 480px;
+}
 
-  td, th{
+.advtime1{
+    position: absolute;
+    top: 910px;
+    left: 520px;
+    width: 480px;
+}
+
+.advtime2{
+    position: absolute;
+    top: 910px;
+    left: 1015px;
+    width: 480px;
+}
+
+.advtime4{
+    position: absolute;
+    top: 1190px;
+    left: 520px;
+    width: 480px;
+}
+
+.advtime6{
+    position: absolute;
+    top: 1190px;
+    left: 1015px;
+    width: 480px;
+}
+
+.advtime3{
+    position: absolute;
+    top: 910px;
+    left: 1510px;
+    width: 480px;
+}
+
+.advtime5{
+    position: absolute;
+    top: 1190px;
+    left: 1510px;
+    width: 480px;
+}
+
+.advtimestudio{
+    position: absolute;
+    top: 910px;
+    left: 2005px;
+    width: 410px;
+}
+
+.beachvibes{
+        position: absolute;
+        top: 540px;
+        left: 1015px;
+        width: 201px;
+}
+
+.office{
+    position: absolute;
+    top: 1040px;
+    left: 175px;
+    px;
+    width: 330px;
+}
+
+.lake{
+    position: absolute;
+    top: 387px;
+    left: 1230px;
+    width: 750px;
+    border: 5px dotted red;
+}
+
+.heart{
+    position: absolute;
+    top: 180px;
+    left: 2000px;
+    width: 200px;
+    border: 5px dotted red;
+}
+
+.honey{
+    position: absolute;
+    top: 155px;
+    left: 1230px;
+    width: 150px;
+    border: 5px dotted red;
+}
+
+.childishg{
+    position: absolute;
+    top: 155px;
+    left: 1230px;
+    width: 150px;
+    border: 5px dotted red;
+}
+
+----
+
+td, th{
     border: 1px solid #1f0f59;
     text-align: left;
     padding: 8px;
-    color: rgb(24, 7, 121);
+    color: rgb(255, 255, 255);
   }
 
-  p{
+p{
     font-family: 'roboto', system-ui;
-    color: rgb(24, 7, 121);
+    color: rgb(19, 89, 48);
+    font-size: 30px;
+}
+
+.quote1{
+    border: 3px solid;
+    padding: 15px;
+    background-color: white;
+    text-align: center;
+    margin: 20px;
+    width: 500px;
+    height: auto;
+    position: absolute;
+}
+
+.yt-video{
+Position: absolute;
+top: 205px;
+left: 570px;
+width: 645px;
+}
+
+span{
+    border: 10px solid;
+    border-color: white;
 }
 
 audio{
@@ -106,5 +235,6 @@ audio{
 }
 
 ol{
-    color: rgb(24, 7, 121);
+    color: rgb(6, 66, 40);
 }
+
