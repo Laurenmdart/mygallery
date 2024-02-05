@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+
+
 .menu ul{
     list-style-type: none;
     background-color: rgb(29, 84, 70);
@@ -22,7 +24,8 @@
     text-decoration: none;
 
 }
-.menu li a:hover{
+
+.menu ul a:hover{
     background-color: rgb(138, 182, 152);
 }
 
@@ -55,7 +58,7 @@
 }
 
 body{
-    background-color: rgb(154, 203, 185);
+    background-color: rgb(213, 234, 226);
 }
 
 title{
@@ -77,6 +80,14 @@ h2{
 h3{
     font-family: 'press2start', system-ui;
     color: rgb(193, 228, 207);;
+    position:right;
+
+}
+
+audio{
+    position: absolute;
+    left: 2000px;
+
 }
 
 .couple{
@@ -85,6 +96,7 @@ h3{
     top: 540px;
     left: 20px;
     width: auto;
+    cursor: crosshair;
 }
 
 .sun{
@@ -138,9 +150,90 @@ h3{
 
 .advtimestudio{
     position: absolute;
-    top: 910px;
-    left: 2005px;
+    top: 1045px;
+    left: 190px;
+    width: 310px;
+    border: 7px dotted rgb(247, 207, 4);
+  
+}
+
+.kirby{
+    position: absolute;
+    top: 1480px;
+    left: 230px;
+    width: 255px;
+    border: 10px dotted pink;
+  
+}
+
+.kirbysleep{
+    position: absolute;
+    top: 1480px;
+    left: 520px;
+    width: 480px;
+}
+
+.reality{
+    position: absolute;
+    top: 1475px;
+    left: 1015px;
+    width: 310px;
+    border: 7px solid pink;
+  
+}
+
+.mindset{
+    position: absolute;
+    top: 1475px;
+    left: 1355px;
+    width: 317px;
+    border: 7px solid white;
+  
+}
+
+.bluetom{
+    position: absolute;
+    top: 1475px;
+    left: 1695px;
+    width: 280px;
+    border: 10px solid blue;
+}
+
+
+.tom{
+    position: absolute;
+    top: 1980px;
+    left: 715px;
+    width: 162px;
+    border: 10px solid pink;
+  
+}
+
+.{
+    position: absolute;
+    top: 1475px;
+    left: 1015px;
+    width: 310px;
+    border: 7px solid pink;
+  
+}
+
+.kirbygame{
+    position: absolute;
+    top: 1810px;
+    left: 912px;
     width: 410px;
+    border: 10px solid white;
+  
+}
+
+.cookingmama{
+    position: absolute;
+    top: 1765px;
+    left: 170px;
+    width: 310px;
+    border: 10px solid white;
+  
 }
 
 .beachvibes{
@@ -150,45 +243,81 @@ h3{
         width: 201px;
 }
 
-.office{
+.tea{
     position: absolute;
-    top: 1040px;
-    left: 175px;
-    px;
-    width: 330px;
+    top: 155px;
+    left: 1230px;
+    width: 205px;
+    border: 5px dotted rgb(0, 0, 0);
 }
 
 .lake{
     position: absolute;
-    top: 387px;
-    left: 1230px;
+    top: 384px;
+    left: 1225px;
     width: 750px;
-    border: 5px dotted red;
+    border: 10px dotted rgb(197, 10, 10);
 }
 
 .heart{
     position: absolute;
-    top: 180px;
+    top: 175px;
     left: 2000px;
     width: 200px;
-    border: 5px dotted red;
+    border: 10px dotted black;
 }
 
 .honey{
     position: absolute;
-    top: 155px;
-    left: 1230px;
-    width: 150px;
-    border: 5px dotted red;
+    top: 915px;
+    left: 2000px;
+    width: 415px;
+    border: 7px solid black;
 }
 
 .childishg{
     position: absolute;
-    top: 155px;
-    left: 1230px;
-    width: 150px;
-    border: 5px dotted red;
+    top: 1510px;
+    left: 2000px;
+    width: 415px;
+    border: 7px solid black;
 }
+
+.building{
+    position: absolute;
+    top: 1780px;
+    left: 1700px;
+    width: 280px;
+    border: 7px solid pink;
+}
+
+.match{
+    position: absolute;
+    top: 150px;
+    left: 1820px;
+    width: 160px;
+    border: 5px dotted rgb(0, 0, 0);
+}
+
+.path{
+    position: absolute;
+    top: 390px;
+    left: 2000px;
+    width: 415px;
+    border: 7px solid black;
+}
+
+
+.stars{
+    position: absolute;
+    top: 170px;
+    left: 1450px;
+    width: 355px;
+    border: 5px dotted rgb(0, 0, 0);
+}
+
+
+
 
 ----
 
@@ -234,7 +363,11 @@ audio{
     margin-top: 20px;
 }
 
+
 ol{
     color: rgb(6, 66, 40);
 }
+
+
+
 
