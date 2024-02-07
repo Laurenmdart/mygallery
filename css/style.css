@@ -9,12 +9,14 @@
     list-style-type: none;
     background-color: rgb(29, 84, 70);
     overflow: hidden;
+    height: 120px;
 }
 
 .menu li{
     float: left;
-    font-size: 20px;
+    font-size: 35px;
     color: white;
+    text-align: center;
 }
 
 .menu li a{
@@ -63,6 +65,7 @@ body{
 
 title{
     color: rgb(27, 87, 65);
+    font-family: 'dmserif', system-ui;
 }
 
 h1{
@@ -84,24 +87,106 @@ h3{
 
 }
 
-audio{
+.mp3list{
+    position: absolute;
+    border: solid darkgreen;
+    display: block;
+    width: 350px;
+    left: 2520px;
+    height: 340px;
+    top: 130px;
+}
+
+.mp3title{
+    position: absolute;
+    display: block;
+    width: 350px;
+    left: 2555px;
+    height: 340px;
+    top: 170px;
+}
+
+.about{
+        position: absolute;
+        display: block;
+        width: 550px;
+        left: 2540px;
+        height: 340px;
+        top: 1100px;
+}
+
+.follow{
+    position: absolute;
+    width: 550px;
+    left: 2690px;
+    height: 340px;
+    top: 1150px;
+   
+}
+
+
+.audio2{
     position: absolute;
     left: 2000px;
 
 }
 
+.audio3{
+    position: absolute;
+    left: 2000px;
+    top: 220px;
+
+}
+
+.audio4{
+    position: absolute;
+    left: 2000px;
+    top: 290px;
+
+}
+
+.audio5{
+    position: absolute;
+    left: 2000px;
+    top: 360px;
+
+}
+
 .couple{
-    border: 5px solid #f3fff4;
+    border: 10px solid #f3fff4;
+    position: absolute;
+    top: 600px;
+    left: 20px;
+    width: auto;
+}
+
+.neoncat{
+    border: 10px solid #f3fff4;
     position: absolute;
     top: 540px;
     left: 20px;
     width: auto;
-    cursor: crosshair;
 }
 
 .sun{
+    border: 5px solid #f3fff4;
     position: absolute;
     top: 540px;
+    left: 515px;
+    width: auto;
+}
+
+.boat{
+    border: 5px solid #f3fff4;
+    position: absolute;
+    top: 800px;
+    left: 530px;
+    width: 465px;
+}
+
+.carebear1{
+    position: absolute;
+    top: 420px;
     left: 520px;
     width: 480px;
 }
@@ -120,6 +205,13 @@ audio{
     width: 480px;
 }
 
+.berrytom{
+    position: absolute;
+    top: 910px;
+    left: 1020px;
+    width: 190px;
+}
+
 .advtime4{
     position: absolute;
     top: 1190px;
@@ -127,9 +219,23 @@ audio{
     width: 480px;
 }
 
+.strawberries{
+    position: absolute;
+    top: 1745px;
+    left: 530px;
+    width: 470px;
+}
+
 .advtime6{
     position: absolute;
     top: 1190px;
+    left: 1015px;
+    width: 480px;
+}
+
+.shoes{
+    position: absolute;
+    top: 1130px;
     left: 1015px;
     width: 480px;
 }
@@ -141,6 +247,13 @@ audio{
     width: 480px;
 }
 
+.museum{
+    position: absolute;
+    top: 170px;
+    left: 1015px;
+    width: 200px;
+}
+
 .advtime5{
     position: absolute;
     top: 1190px;
@@ -148,20 +261,36 @@ audio{
     width: 480px;
 }
 
+.ocean{
+    position: absolute;
+    top: 1125px;
+    left: 1510px;
+    width: 480px;
+}
+
 .advtimestudio{
     position: absolute;
-    top: 1045px;
-    left: 190px;
-    width: 310px;
+    top: 1100px;
+    left: 220px;
+    width: 280px;
     border: 7px dotted rgb(247, 207, 4);
   
 }
 
 .kirby{
     position: absolute;
-    top: 1480px;
+    top: 1485px;
     left: 230px;
     width: 255px;
+    border: 10px dotted pink;
+  
+}
+
+.butterfly{
+    position: absolute;
+    top: 1380px;
+    left: 190px;
+    width: 300px;
     border: 10px dotted pink;
   
 }
@@ -171,6 +300,14 @@ audio{
     top: 1480px;
     left: 520px;
     width: 480px;
+}
+
+.desk{
+position: absolute;
+top: 1170px;
+left: 525px;
+width: 450px;
+border: 15px solid white;
 }
 
 .reality{
@@ -251,12 +388,28 @@ audio{
     border: 5px dotted rgb(0, 0, 0);
 }
 
+.keyboard{
+    position: absolute;
+    top: 140px;
+    left: 1230px;
+    width: 150px;
+    border: 5px dotted rgb(0, 0, 0);
+}
+
 .lake{
     position: absolute;
     top: 384px;
     left: 1225px;
     width: 750px;
     border: 10px dotted rgb(197, 10, 10);
+}
+
+.tiger{
+    position: absolute;
+    top: 384px;
+    left: 1225px;
+    width: 750px;
+    border: 10px dotted rgb(104, 49, 29);
 }
 
 .heart{
@@ -275,9 +428,25 @@ audio{
     border: 7px solid black;
 }
 
+.quote{
+    position: absolute;
+    top: 970px;
+    left: 2000px;
+    width: 415px;
+    border: 7px solid black;
+}
+
 .childishg{
     position: absolute;
     top: 1510px;
+    left: 2000px;
+    width: 415px;
+    border: 7px solid black;
+}
+
+.quote2{
+    position: absolute;
+    top: 1735px;
     left: 2000px;
     width: 415px;
     border: 7px solid black;
@@ -299,6 +468,14 @@ audio{
     border: 5px dotted rgb(0, 0, 0);
 }
 
+.earth{
+    position: absolute;
+    top: 140px;
+    left: 1820px;
+    width: 165px;
+    border: 5px dotted rgb(0, 0, 0);
+}
+
 .path{
     position: absolute;
     top: 390px;
@@ -307,12 +484,38 @@ audio{
     border: 7px solid black;
 }
 
+.white{
+    position: absolute;
+    top: 390px;
+    left: 2000px;
+    width: 415px;
+    border: 7px solid black;
+}
+
+.profile{
+    position: absolute;
+    top: 390px;
+    left: 2500px;
+    width: 500px;
+    border: 10px solid rgb(200, 159, 133);
+    border-top-right-radius: 300px;
+    border-top-left-radius: 300px;
+}
+
 
 .stars{
     position: absolute;
     top: 170px;
     left: 1450px;
     width: 355px;
+    border: 5px dotted rgb(0, 0, 0);
+}
+
+.carebear2{
+    position: absolute;
+    top: 140px;
+    left: 1445px;
+    width: 305px;
     border: 5px dotted rgb(0, 0, 0);
 }
 
@@ -334,16 +537,29 @@ p{
     font-size: 30px;
 }
 
-.quote1{
+.blog1{
     border: 3px solid;
     padding: 15px;
     background-color: white;
     text-align: center;
     margin: 20px;
-    width: 500px;
+    width: 450px;
     height: auto;
     position: absolute;
 }
+
+.blog2{
+    border: 3px solid;
+    padding: 15px;
+    background-color: white;
+    text-align: center;
+    margin: 20px;
+    width: 450px;
+    height: auto;
+    position: absolute;
+    top: 250px;
+}
+
 
 .yt-video{
 Position: absolute;
@@ -367,7 +583,6 @@ audio{
 ol{
     color: rgb(6, 66, 40);
 }
-
 
 
 
